@@ -1,0 +1,8 @@
+{
+        "number": 1,
+        "enabled": true,
+        "type": "trunk",
+        "dropUntaggedTraffic": false,
+        "vlan": 1,
+        "allowedVlans": "all"
+}
