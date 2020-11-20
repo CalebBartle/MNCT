@@ -150,7 +150,7 @@ $TxtBxNet1Range.Font             = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBx1VLANName                  = New-Object system.Windows.Forms.TextBox
 $TxtBx1VLANName.multiline        = $false
-$TxtBx1VLANName.text             = "Office"
+$TxtBx1VLANName.text             = "VLAN_Name"
 $TxtBx1VLANName.width            = 88
 $TxtBx1VLANName.height           = 20
 $TxtBx1VLANName.location         = New-Object System.Drawing.Point(236,81)
@@ -166,7 +166,7 @@ $LblVlanName1.Font               = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBx2VLANName                  = New-Object system.Windows.Forms.TextBox
 $TxtBx2VLANName.multiline        = $false
-$TxtBx2VLANName.text             = "Guest"
+$TxtBx2VLANName.text             = "VLAN_Name_2"
 $TxtBx2VLANName.width            = 88
 $TxtBx2VLANName.height           = 20
 $TxtBx2VLANName.location         = New-Object System.Drawing.Point(236,122)
@@ -182,7 +182,7 @@ $TxtBxNet3Range.Font             = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBx3VLANName                  = New-Object system.Windows.Forms.TextBox
 $TxtBx3VLANName.multiline        = $false
-$TxtBx3VLANName.text             = "Ancillary"
+$TxtBx3VLANName.text             = "VLAN_Name_3"
 $TxtBx3VLANName.width            = 88
 $TxtBx3VLANName.height           = 20
 $TxtBx3VLANName.location         = New-Object System.Drawing.Point(236,169)
@@ -228,7 +228,7 @@ $V1VLAN.Font                     = New-Object System.Drawing.Font('Segoe UI',10)
     
 $V2VLAN                          = New-Object system.Windows.Forms.TextBox
 $V2VLAN.multiline                = $false
-$V2VLAN.text                     = "30"
+$V2VLAN.text                     = "2"
 $V2VLAN.width                    = 55
 $V2VLAN.height                   = 20
 $V2VLAN.location                 = New-Object System.Drawing.Point(1,122)
@@ -236,7 +236,7 @@ $V2VLAN.Font                     = New-Object System.Drawing.Font('Segoe UI',10)
     
 $V3VLAN                          = New-Object system.Windows.Forms.TextBox
 $V3VLAN.multiline                = $false
-$V3VLAN.text                     = "40"
+$V3VLAN.text                     = "3"
 $V3VLAN.width                    = 55
 $V3VLAN.height                   = 20
 $V3VLAN.location                 = New-Object System.Drawing.Point(1,169)
@@ -565,7 +565,7 @@ $ChkIDNS1.Font                   = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS1                        = New-Object system.Windows.Forms.TextBox
 $TxtBxNS1.multiline              = $false
-$TxtBxNS1.text                   = "172.16.1.55"
+$TxtBxNS1.text                   = "8.8.8.8"
 $TxtBxNS1.width                  = 118
 $TxtBxNS1.height                 = 20
 $TxtBxNS1.location               = New-Object System.Drawing.Point(7,80)
@@ -613,7 +613,7 @@ $Label25.Font                    = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS2                        = New-Object system.Windows.Forms.TextBox
 $TxtBxNS2.multiline              = $false
-$TxtBxNS2.text                   = "172.16.1.55"
+$TxtBxNS2.text                   = "8.8.8.8"
 $TxtBxNS2.width                  = 119
 $TxtBxNS2.height                 = 20
 $TxtBxNS2.location               = New-Object System.Drawing.Point(6,134)
@@ -621,7 +621,7 @@ $TxtBxNS2.Font                   = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS3                        = New-Object system.Windows.Forms.TextBox
 $TxtBxNS3.multiline              = $false
-$TxtBxNS3.text                   = "172.16.1.55"
+$TxtBxNS3.text                   = "8.8.8.8"
 $TxtBxNS3.width                  = 121
 $TxtBxNS3.height                 = 20
 $TxtBxNS3.location               = New-Object System.Drawing.Point(4,198)
@@ -629,7 +629,7 @@ $TxtBxNS3.Font                   = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS12                       = New-Object system.Windows.Forms.TextBox
 $TxtBxNS12.multiline             = $false
-$TxtBxNS12.text                  = "172.16.1.227"
+$TxtBxNS12.text                  = "8.8.8.8"
 $TxtBxNS12.width                 = 118
 $TxtBxNS12.height                = 20
 $TxtBxNS12.location              = New-Object System.Drawing.Point(128,80)
@@ -637,7 +637,7 @@ $TxtBxNS12.Font                  = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS22                       = New-Object system.Windows.Forms.TextBox
 $TxtBxNS22.multiline             = $false
-$TxtBxNS22.text                  = "172.16.1.227"
+$TxtBxNS22.text                  = "8.8.8.8"
 $TxtBxNS22.width                 = 118
 $TxtBxNS22.height                = 20
 $TxtBxNS22.location              = New-Object System.Drawing.Point(127,134)
@@ -645,7 +645,7 @@ $TxtBxNS22.Font                  = New-Object System.Drawing.Font('Segoe UI',10)
     
 $TxtBxNS33                       = New-Object system.Windows.Forms.TextBox
 $TxtBxNS33.multiline             = $false
-$TxtBxNS33.text                  = "172.16.1.227"
+$TxtBxNS33.text                  = "8.8.8.8"
 $TxtBxNS33.width                 = 117
 $TxtBxNS33.height                = 20
 $TxtBxNS33.location              = New-Object System.Drawing.Point(128,198)
@@ -675,7 +675,7 @@ $TxtBxAPIKey.width               = 291
 $TxtBxAPIKey.height              = 20
 $TxtBxAPIKey.location            = New-Object System.Drawing.Point(7,30)
 $TxtBxAPIKey.Font                = New-Object System.Drawing.Font('Segoe UI',10)
-$TxtBxAPIKey.PasswordChar        = "•"
+$TxtBxAPIKey.PasswordChar        = "Â•"
     
 $BtnGenerateKey                  = New-Object system.Windows.Forms.Button
 $BtnGenerateKey.text             = "Gen. Secure Key"
