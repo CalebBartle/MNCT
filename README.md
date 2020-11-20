@@ -12,42 +12,42 @@ A Separate piece of the project will provide information on current list of all 
 More information on this is soon to arrive.
 
 ## MNCT Features
-1. Creation/Update of VLANs and configuration (VPN, DNS, VLAN Information)
-2. Creation/Update of Dynamic SSIDs, PSKs, Configuration, authentication settings..
-3. Creation/Import/Update of Network Devices (MX,MR,MS,MG,MV)
-4. Import/Update Fixed IP Assignments to VLANs
-5. Route Table Export/Import Checker (VPN Conflict)
-6. Network Configuration Import of the following:
-   a. L3, L7 Firewall Rules
-   b. Content Filtering
-   c. Devices and Device configuration
-   d. Location
-   e. Intrusion Detection
-   f. Tags
-   g. Traffic Shaping
-   h. Threat Protection
-   i. VLAN/DHCP/DNS Import
-7. Network configuration Backup to file (Export), Network Configuration Import from file.
-8. Update Appliance Per-Port VLAN Settings
-9. Mass/Bulk Update Networks of following information:
-   a. Mass/Bulk update names (Append to Front, End, Overwrite and Append)
-   b. Update Security Settings (Threat Protection, IDS, Content Filtering, Traffic Shaping, Syslog)
-   c. Mass/Buulk update the following Firewall configuration:
-      i. L7 Firewall Rules
-      ii. L3 Firewall Rules (Apply to Top, Bottom, or Remove Firewall Rules)
-   d. Update Tags (Overwrite, Append, Apply all VLAN Subnets as individual tags on the network)
-   e. Update/Add new or existing SSID/Wireless Networks
-   f. Alerts
-   g. Location
-   h. VLANs (or specifically mass update VLAN Names)
-   i. Add/Update/Remove Network Devices, Device Name, Notes, Address and Tags
-   j. Mass Import Custom API to many networks (Use any API call that has not been created as a feature for added flexibility)
-10. Secure API embedded in GUI
-11. Import Organization information
-12. Flexible and Customizable Creation of Networks
-13. Bulk Switch Configuration Utility GUI Module
-14. Custom API Builder GUI Module
-15. Task Scheduler, Task builder and report builder
+1. Creation/Update of VLANs and configuration (VPN, DNS, VLAN Information) <br>
+2. Creation/Update of Dynamic SSIDs, PSKs, Configuration, authentication settings.. <br>
+3. Creation/Import/Update of Network Devices (MX,MR,MS,MG,MV) <br>
+4. Import/Update Fixed IP Assignments to VLANs <br>
+5. Route Table Export/Import Checker (VPN Conflict) <br>
+6. Network Configuration Import of the following: <br>
+   a. L3, L7 Firewall Rules <br>
+   b. Content Filtering <br>
+   c. Devices and Device configuration <br>
+   d. Location <br>
+   e. Intrusion Detection <br>
+   f. Tags <br>
+   g. Traffic Shaping <br>
+   h. Threat Protection <br>
+   i. VLAN/DHCP/DNS Import <br>
+7. Network configuration Backup to file (Export), Network Configuration Import from file.<br>
+8. Update Appliance Per-Port VLAN Settings <br>
+9. Mass/Bulk Update Networks of following information:<br>
+   a. Mass/Bulk update names (Append to Front, End, Overwrite and Append) <br>
+   b. Update Security Settings (Threat Protection, IDS, Content Filtering, Traffic Shaping, Syslog) <br>
+   c. Mass/Buulk update the following Firewall configuration: <br>
+      i. L7 Firewall Rules <br>
+      ii. L3 Firewall Rules (Apply to Top, Bottom, or Remove Firewall Rules) <br>
+   d. Update Tags (Overwrite, Append, Apply all VLAN Subnets as individual tags on the network) <br>
+   e. Update/Add new or existing SSID/Wireless Networks <br>
+   f. Alerts <br>
+   g. Location <br>
+   h. VLANs (or specifically mass update VLAN Names) <br>
+   i. Add/Update/Remove Network Devices, Device Name, Notes, Address and Tags <br>
+   j. Mass Import Custom API to many networks (Use any API call that has not been created as a feature for added flexibility) <br>
+10. Secure API embedded in GUI <br>
+11. Import Organization information <br>
+12. Flexible and Customizable Creation of Networks <br>
+13. Bulk Switch Configuration Utility GUI Module <br>
+14. Custom API Builder GUI Module <br>
+15. Task Scheduler, Task builder and report builder <br>
 
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
