@@ -11,6 +11,13 @@ The tool itself is a mere collection of several automated tasks, modules and pro
 A Separate piece of the project will provide information on current list of all features, known bugs, feature updates, requests as well as new changes to the project.
 More information on this is soon to arrive.
 
+## Author Notes
+Given the short age of the project, I will continue to provide source documentation as well as use cases for how the tool requires its use. As any code online, always review before running in your environment and gain the proper approvals before utilizing this application. Along with this, please review the licensing statement attached to the project.
+
+USE AT YOUR OWN RISK. I am not responsible for any disasters, incidents or issues caused by improper use of the tool or code provided. I will offer assistance and support as time permits, but ensure that there is an understaning of the tools limitations, how it works and how the code works. It is  HIGHLY recommended to test the tool and get a feel for how it works using the Cisco DevNet Sandbox.https://developer.cisco.com/site/sandbox/
+
+Understand that some use case scenarios of the tool and its features have been designed around scenarios that may be entirely unlike your Meraki environment. In this case, by all means, edit and fork new versions of this to your hearts desire to fit the needs of you and your organization.
+
 ## MNCT Features
 1. Creation/Update of VLANs and configuration (VPN, DNS, VLAN Information) <br>
 2. Creation/Update of Dynamic SSIDs, PSKs, Configuration, authentication settings.. <br>
