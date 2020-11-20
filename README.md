@@ -76,6 +76,7 @@ This is a bug tracker that will be consistently updated as bugs are found and re
 Download the entire repository and start by launching MerakiNetworkTool.ps1
 At this time, the project supports and has been tested using Powershell 5.1+
 Given the age and infancy of the project, it is highly recommended to use Powershell ISE or VSCode to launch the project. It's also recommended to allow debugging.
+The project at this time requires that the root directory remain in its configuration as its shown in the project repository. The reason for this is that it requires those root directories for proper use. Ensure that when the tool is ran that it is ran under the root directory where the resource files/folders are located.
 
 The guide below (provided by https://github.com/sanderkl), will walk through the pre-requisite steps regarding creating your API key as well as ensuring your Organization is configured to use APIs.
 
