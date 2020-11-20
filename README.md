@@ -28,9 +28,7 @@ In your profile, scroll down to 'API access'
 
 ![Image Meraki dashboard new API key](https://imgur.com/Dbux0J5.png)
 
-Generate a new rest api key, its a 40 byte key.
-Either remember it or store it in a safe location, this code represents your logged in Meraki dashboard user.
-This is the 'rest api key' the module asks for.
+Generate a new rest api key.
 
 # Import API Key
 Once launched, you'll need to start by uploading/importing your API Key. <br>
