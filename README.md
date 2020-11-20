@@ -1,7 +1,15 @@
 # MNCT
-Meraki Network Configuration Tool
+Meraki Network Configuration Tool (Version 1.9.5)
 
 Special thanks to some hard work from https://github.com/sanderkl.
+
+## Purpose for this Project
+This project began development when my team and I were looking for an easy, automated and streamlined process for managing and making changes on hundreds of Meraki networks. The API offers the flexibility that allows us to automate this, but to make this fast, easy to use as well as a modular, I began development of this project. The project as of writing is currently in Beta stages and has known issues that are currently being addressed, however MNCT still offers a wide variety of unique automation features that can assist and cut down time with Network Management.
+
+The tool itself is a mere collection of several automated tasks, modules and procedures that has saved us hours of time and effort. Version 1.9.5 is the first public release of this open sourced project that has continually received daily and weekly revisions. The project is now migrating towards a more robust change control process that will allow for better version control and history through github.
+
+A Separate piece of the project will provide information on current list of all features, known bugs, feature updates, requests as well as new changes to the project.
+More information on this is soon to arrive.
 
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
