@@ -11,6 +11,44 @@ The tool itself is a mere collection of several automated tasks, modules and pro
 A Separate piece of the project will provide information on current list of all features, known bugs, feature updates, requests as well as new changes to the project.
 More information on this is soon to arrive.
 
+## MNCT Features
+1. Creation/Update of VLANs and configuration (VPN, DNS, VLAN Information)
+2. Creation/Update of Dynamic SSIDs, PSKs, Configuration, authentication settings..
+3. Creation/Import/Update of Network Devices (MX,MR,MS,MG,MV)
+4. Import/Update Fixed IP Assignments to VLANs
+5. Route Table Export/Import Checker (VPN Conflict)
+6. Network Configuration Import of the following:
+   a. L3, L7 Firewall Rules
+   b. Content Filtering
+   c. Devices and Device configuration
+   d. Location
+   e. Intrusion Detection
+   f. Tags
+   g. Traffic Shaping
+   h. Threat Protection
+   i. VLAN/DHCP/DNS Import
+7. Network configuration Backup to file (Export), Network Configuration Import from file.
+8. Update Appliance Per-Port VLAN Settings
+9. Mass/Bulk Update Networks of following information:
+   a. Mass/Bulk update names (Append to Front, End, Overwrite and Append)
+   b. Update Security Settings (Threat Protection, IDS, Content Filtering, Traffic Shaping, Syslog)
+   c. Mass/Buulk update the following Firewall configuration:
+      i. L7 Firewall Rules
+      ii. L3 Firewall Rules (Apply to Top, Bottom, or Remove Firewall Rules)
+   d. Update Tags (Overwrite, Append, Apply all VLAN Subnets as individual tags on the network)
+   e. Update/Add new or existing SSID/Wireless Networks
+   f. Alerts
+   g. Location
+   h. VLANs (or specifically mass update VLAN Names)
+   i. Add/Update/Remove Network Devices, Device Name, Notes, Address and Tags
+   j. Mass Import Custom API to many networks (Use any API call that has not been created as a feature for added flexibility)
+10. Secure API embedded in GUI
+11. Import Organization information
+12. Flexible and Customizable Creation of Networks
+13. Bulk Switch Configuration Utility GUI Module
+14. Custom API Builder GUI Module
+15. Task Scheduler, Task builder and report builder
+
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
 
