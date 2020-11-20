@@ -1,0 +1,23 @@
+    {
+        "number": 1,
+        "name": "SSID NAME",
+        "enabled": true,
+        "splashPage": "Click-through splash page",
+        "ssidAdminAccessible": false,
+        "authMode": "open",
+        "ipAssignmentMode": "Bridge mode",
+        "useVlanTagging": true,
+        "defaultVlanId": 30,
+        "adminSplashUrl": "",
+        "splashTimeout": "1440 minutes",
+        "walledGardenEnabled": true,
+        "walledGardenRanges": "192.168.1.1/24",
+        "minBitrate": 1,
+        "bandSelection": "Dual band operation",
+        "perClientBandwidthLimitUp": 0,
+        "perClientBandwidthLimitDown": 0,
+        "lanIsolationEnabled": false,
+        "visible": true,
+        "availableOnAllAps": true,
+        "availabilityTags": []
+    }

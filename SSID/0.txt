@@ -1,0 +1,22 @@
+{
+        "number": 0,
+        "name": "SSID NAME",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "authMode": "psk",
+        "psk": "PSK",
+        "encryptionMode": "wpa",
+        "wpaEncryptionMode": "WPA1 and WPA2",
+        "ipAssignmentMode": "Bridge mode",
+        "useVlanTagging": true,
+	"defaultVlanId": 1,
+        "minBitrate": 1,
+        "bandSelection": "Dual band operation",
+        "perClientBandwidthLimitUp": 0,
+        "perClientBandwidthLimitDown": 0,
+        "lanIsolationEnabled": false,
+        "visible": true,
+        "availableOnAllAps": true,
+        "availabilityTags": []
+    }
