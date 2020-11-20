@@ -1,0 +1,13 @@
+{
+    "servers": [
+        {
+            "host": "127.0.0.1",
+            "port": "",
+            "roles": [
+                "Wireless event log",
+                "URLs",
+		"Appliance event log"
+            ]
+        }
+    ]
+}
