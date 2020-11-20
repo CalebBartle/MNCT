@@ -6,6 +6,32 @@ Special thanks to some hard work from https://github.com/sanderkl.
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
 
+The guide below (provided by https://github.com/sanderkl), will walk through the pre-requisite steps regarding creating your API key as well as ensuring your Organization is configured to use APIs.
+
+## Enable Rest API Access for the organization
+
+API key has to be organization wide enabled, to do that, go to organization settings
+
+![Image Meraki dashboard](https://imgur.com/LBzIhK3.png)
+
+Scroll down to 'Dashboard API access' and tick the box to enable it.
+
+![Image Meraki dashboard](https://imgur.com/iOXTiEJ.png)
+
+## Create API key for your user
+
+Go to profile settings
+
+![Image Meraki dashboard profile link](https://imgur.com/ymjzujI.png)
+
+In your profile, scroll down to 'API access'
+
+![Image Meraki dashboard new API key](https://imgur.com/Dbux0J5.png)
+
+Generate a new rest api key, its a 40 byte key.
+Either remember it or store it in a safe location, this code represents your logged in Meraki dashboard user.
+This is the 'rest api key' the module asks for.
+
 # Import API Key
 Once launched, you'll need to start by uploading/importing your API Key. <br>
 You'll be immediately prompted on first launch to enter an API Key. <br>
