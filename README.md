@@ -65,6 +65,7 @@ This is a bug tracker that will be consistently updated as bugs are found and re
 5. No current functionality for viewing, importing VLANs from Networks that contain more than three VLANs (Major change in progress for this) <br>
 6. VLAN Import does not currently import VPN settings into MNCT. <br>
 7. Switch Settings option in SBCU currently has no functionality supported. <br>
+8. Updating L3 or L7 Firewall rules on more than 10+ Networks with the VERBOSE option enabled can cause the application to hang (Reviewing)
 
 ## New Feature Requests and project plans
 1. Add a Remove L7 FW rules option <br>
@@ -73,6 +74,8 @@ This is a bug tracker that will be consistently updated as bugs are found and re
 
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
+At this time, the project supports and has been tested using Powershell 5.1+
+Given the age and infancy of the project, it is highly recommended to use Powershell ISE or VSCode to launch the project. It's also recommended to allow debugging.
 
 The guide below (provided by https://github.com/sanderkl), will walk through the pre-requisite steps regarding creating your API key as well as ensuring your Organization is configured to use APIs.
 
