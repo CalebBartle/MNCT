@@ -1,7 +1,7 @@
 # MNCT
 Meraki Network Configuration Tool (Version 1.9.5)
 
-Special thanks to some hard work from https://github.com/sanderkl.
+Special thanks to some hard work from https://github.com/sanderkl. Several modules were forked from his hard work on his PS-Meraki project which are utilized within MNCT.
 
 ## Purpose for this Project
 This project began development when my team and I were looking for an easy, automated and streamlined process for managing and making changes on hundreds of Meraki networks. The API offers the flexibility that allows us to automate this, but to make this fast, easy to use as well as a modular, I began development of this project. The project as of writing is currently in Beta stages and has known issues that are currently being addressed, however MNCT still offers a wide variety of unique automation features that can assist and cut down time with Network Management.
@@ -48,6 +48,21 @@ More information on this is soon to arrive.
 13. Bulk Switch Configuration Utility GUI Module <br>
 14. Custom API Builder GUI Module <br>
 15. Task Scheduler, Task builder and report builder <br>
+
+## Known Bugs
+This is a bug tracker that will be consistently updated as bugs are found and reported. <br>
+1. Appliance IP when creating or updating VLANs is not currently enforced. (In Progress) <br>
+2. Tag Overwite option may display as an available option when bulk updating networks. This is not an added or supported feature and is a GUI related bug. (In Progress) <br>
+3. When updating a single network, subnets as tags may not consistently work. (In Progress) <br>
+4. No current functionality for DELETE using API Builder. (In Progress) <br>
+5. No current functionality for viewing, importing VLANs from Networks that contain more than three VLANs (Major change in progress for this) <br>
+6. VLAN Import does not currently import VPN settings into MNCT. <br>
+7. Switch Settings option in SBCU currently has no functionality supported. <br>
+
+## New Feature Requests and project plans
+1. Add a Remove L7 FW rules option <br>
+2. Better SSID features and support (Easier use along with customization of features and settings) <br>
+3. Better and Improved Network Configuration Import/Exports <br>
 
 # Getting Started
 Download the entire repository and start by launching MerakiNetworkTool.ps1
