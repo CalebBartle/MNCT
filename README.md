@@ -66,6 +66,7 @@ This is a bug tracker that will be consistently updated as bugs are found and re
 6. VLAN Import does not currently import VPN settings into MNCT. <br>
 7. Switch Settings option in SBCU currently has no functionality supported. <br>
 8. Updating L3 or L7 Firewall rules on more than 10+ Networks with the VERBOSE option enabled can cause the application to hang (Reviewing)
+9. When uploading L7 Firewall rules from file or import, it will not appropriately display the name of custom HTTP Hostname Rules
 
 ## New Feature Requests and project plans
 1. Add a Remove L7 FW rules option <br>
